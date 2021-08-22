@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> C APIs for registering an N-API module exporting interfaces for invoking unary numerical functions.
+> C APIs for registering a Node-API module exporting interfaces for invoking unary numerical functions.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -142,11 +142,11 @@ static double identity( const double x ) {
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     return stdlib_math_base_napi_d_d( env, info, identity );
@@ -181,11 +181,11 @@ static float identityf( const float x ) {
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     return stdlib_math_base_napi_f_f( env, info, identityf );
@@ -221,11 +221,11 @@ static int32_t identity( const int32_t x ) {
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     return stdlib_math_base_napi_i_i( env, info, identity );
@@ -246,7 +246,7 @@ void stdlib_math_base_napi_i_i( napi_env env, napi_callback_info info, int32_t (
 
 #### STDLIB_MATH_BASE_NAPI_MODULE_D_D( fcn )
 
-Macro for registering an N-API module exporting an interface for invoking a unary function accepting and returning double-precision floating-point numbers.
+Macro for registering a Node-API module exporting an interface for invoking a unary function accepting and returning double-precision floating-point numbers.
 
 ```c
 static double scale( const double x ) {
@@ -255,7 +255,7 @@ static double scale( const double x ) {
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_MATH_BASE_NAPI_MODULE_D_D( scale );
 ```
 
@@ -263,11 +263,11 @@ The macro expects the following arguments:
 
 -   **fcn**: `double (*fcn)( double )` unary function.
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 #### STDLIB_MATH_BASE_NAPI_MODULE_F_F( fcn )
 
-Macro for registering an N-API module exporting an interface for invoking a unary function accepting and returning single-precision floating-point numbers.
+Macro for registering a Node-API module exporting an interface for invoking a unary function accepting and returning single-precision floating-point numbers.
 
 ```c
 static float scale( const float x ) {
@@ -276,7 +276,7 @@ static float scale( const float x ) {
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_MATH_BASE_NAPI_MODULE_F_F( scale );
 ```
 
@@ -284,11 +284,11 @@ The macro expects the following arguments:
 
 -   **fcn**: `float (*fcn)( float )` unary function.
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 #### STDLIB_MATH_BASE_NAPI_MODULE_I_I( fcn )
 
-Macro for registering an N-API module exporting an interface for invoking a unary function accepting and returning 32-bit signed integers.
+Macro for registering a Node-API module exporting an interface for invoking a unary function accepting and returning 32-bit signed integers.
 
 ```c
 #include <stdint.h>
@@ -299,7 +299,7 @@ static int32_t scale( const int32_t x ) {
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_MATH_BASE_NAPI_MODULE_I_I( scale );
 ```
 
@@ -307,7 +307,7 @@ The macro expects the following arguments:
 
 -   **fcn**: `int32_t (*fcn)( int32_t )` unary function.
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 </section>
 
