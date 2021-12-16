@@ -41,6 +41,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/complex-float32": "^0.0.x",
+    "@stdlib/complex-float64": "^0.0.x",
+    "@stdlib/complex-reim": "^0.0.x",
+    "@stdlib/complex-reimf": "^0.0.x",
     "@stdlib/utils-library-manifest": "^0.0.x"
   },
   "devDependencies": {
