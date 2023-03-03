@@ -162,11 +162,10 @@ jobs:
       # Remove unnecessary files:
       - name: 'Remove unnecessary files'
         run: |
-          # Check if there exists a docs/repl.txt file:
           if [ -f docs/repl.txt ]; then
             rm docs/repl.txt
           fi
-          rm [ -f docs/types/test.ts ]; then
+          if [ -f docs/types/test.ts ]; then
             rm docs/types/test.ts
           fi
 
