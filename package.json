@@ -41,10 +41,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1",
-    "@stdlib/complex-reim": "^0.2.1",
-    "@stdlib/complex-reimf": "^0.2.1",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
+    "@stdlib/complex-float32-reim": "github:stdlib-js/complex-float32-reim#main",
+    "@stdlib/complex-float64-ctor": "^0.0.1",
+    "@stdlib/complex-float64-reim": "github:stdlib-js/complex-float64-reim#main",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
