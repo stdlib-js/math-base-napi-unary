@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi-unary",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "C APIs for registering a Node-API module exporting an interface for invoking a unary numerical function.",
   "license": "Apache-2.0",
   "author": {
@@ -41,16 +41,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32-ctor": "^0.0.1",
-    "@stdlib/complex-float32-reim": "github:stdlib-js/complex-float32-reim#main",
-    "@stdlib/complex-float64-ctor": "^0.0.1",
-    "@stdlib/complex-float64-reim": "github:stdlib-js/complex-float64-reim#main",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float32-reim": "^0.1.0",
+    "@stdlib/complex-float64-ctor": "^0.0.2",
+    "@stdlib/complex-float64-reim": "^0.1.1",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/math-base-assert-is-nan": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
