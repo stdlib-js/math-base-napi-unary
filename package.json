@@ -42,9 +42,9 @@
   },
   "dependencies": {
     "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/complex-float32-reim": "^0.1.1",
+    "@stdlib/complex-float32-reim": "^0.1.2",
     "@stdlib/complex-float64-ctor": "^0.0.3",
-    "@stdlib/complex-float64-reim": "^0.1.1",
+    "@stdlib/complex-float64-reim": "^0.1.2",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
