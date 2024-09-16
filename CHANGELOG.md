@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-16)
 
 <section class="features">
 
 ### Features
 
+-   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903)
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - **feat:** add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903) _(by Gunj Joshi, Athan Reines)_
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
 
 </details>
@@ -34,8 +36,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 
 </section>
