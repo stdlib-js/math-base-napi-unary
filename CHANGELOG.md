@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-21)
+## Unreleased (2025-04-01)
 
 <section class="features">
 
@@ -18,12 +18,35 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
 -   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - **feat:** add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253) _(by Karan Anand, Athan Reines)_
 -   [`b2c926b`](https://github.com/stdlib-js/stdlib/commit/b2c926b286713f2bbeda7becbaf3ad2cdaed1947) - **refactor:** move implementations and macros to separate files [(#5544)](https://github.com/stdlib-js/stdlib/pull/5544) _(by Karan Anand)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
