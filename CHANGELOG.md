@@ -47,6 +47,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`d2f5415`](https://github.com/stdlib-js/stdlib/commit/d2f541532510756491807bf4a22bb091b234aaa7) - **style:** remove extra trailing empty line _(by Philipp Burckhardt)_
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
