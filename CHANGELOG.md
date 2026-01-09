@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-13)
+## Unreleased (2026-01-09)
 
 <section class="features">
 
 ### Features
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576)
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860)
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
 -   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253)
@@ -48,6 +49,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - **feat:** add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576) _(by Neeraj Pathak, Athan Reines)_
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - **feat:** add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860) _(by Gunj Joshi)_
 -   [`d2f5415`](https://github.com/stdlib-js/stdlib/commit/d2f541532510756491807bf4a22bb091b234aaa7) - **style:** remove extra trailing empty line _(by Philipp Burckhardt)_
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
@@ -69,11 +71,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
 -   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
 
 </section>

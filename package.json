@@ -45,6 +45,9 @@
     "@stdlib/complex-float32-reim": "^0.1.2",
     "@stdlib/complex-float64-ctor": "^0.0.3",
     "@stdlib/complex-float64-reim": "^0.1.2",
+    "@stdlib/number-float16-base-to-float64": "github:stdlib-js/number-float16-base-to-float64#main",
+    "@stdlib/number-float16-ctor": "github:stdlib-js/number-float16-ctor#main",
+    "@stdlib/number-float64-base-to-float16": "github:stdlib-js/number-float64-base-to-float16#main",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
