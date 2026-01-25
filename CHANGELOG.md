@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.4">
 
-## Unreleased (2026-01-09)
+## 0.2.4 (2026-01-25)
 
 <section class="features">
 
