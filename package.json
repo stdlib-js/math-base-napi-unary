@@ -48,7 +48,7 @@
     "@stdlib/number-float16-base-to-float64": "github:stdlib-js/number-float16-base-to-float64#main",
     "@stdlib/number-float16-ctor": "github:stdlib-js/number-float16-ctor#main",
     "@stdlib/number-float64-base-to-float16": "github:stdlib-js/number-float64-base-to-float16#main",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
@@ -87,11 +87,6 @@
     "map",
     "transform"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
