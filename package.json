@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi-unary",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "C APIs for registering a Node-API module exporting an interface for invoking a unary numerical function.",
   "license": "Apache-2.0",
   "author": {
@@ -41,13 +41,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/complex-float32-reim": "^0.1.2",
-    "@stdlib/complex-float64-ctor": "^0.1.0",
-    "@stdlib/complex-float64-reim": "^0.1.2",
-    "@stdlib/number-float16-base-to-float64": "^0.1.0",
-    "@stdlib/number-float16-ctor": "^0.1.0",
-    "@stdlib/number-float64-base-to-float16": "^0.1.0",
+    "@stdlib/complex-float32-ctor": "^0.1.0",
+    "@stdlib/complex-float32-reim": "^0.1.3",
+    "@stdlib/complex-float64-ctor": "^0.1.1",
+    "@stdlib/complex-float64-reim": "^0.1.3",
+    "@stdlib/number-float16-base-to-float64": "^0.1.1",
+    "@stdlib/number-float16-ctor": "^0.1.1",
+    "@stdlib/number-float64-base-to-float16": "^0.1.1",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
